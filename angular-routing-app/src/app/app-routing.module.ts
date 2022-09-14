@@ -6,6 +6,7 @@ import { FruitsComponentComponent } from './fruits-component/fruits-component.co
 const routes: Routes = [
   { path: 'animals', component: AnimalComponentComponent},
   { path: 'fruits', component: FruitsComponentComponent},
+  {path: '', redirectTo: '/animals', pathMatch: 'full'},
 ];
 
 @NgModule({
